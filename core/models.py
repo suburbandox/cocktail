@@ -4,5 +4,5 @@ class Cocktail(models.Model):
     name = models.CharField(max_length=255)
     primary_spirit = models.CharField(max_length=255)
     root_cocktail= models.CharField(max_length=255)
-    recpie= models.TextField()
+    recipe= models.TextField()
 
